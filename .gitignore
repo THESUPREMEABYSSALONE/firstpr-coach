@@ -1,0 +1,15 @@
+# Secrets: NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local output
+plan*.md
+*.log
+.DS_Store
